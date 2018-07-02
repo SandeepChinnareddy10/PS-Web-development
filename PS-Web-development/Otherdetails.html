@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Other details</title>
+	<style>
+		body{
+			margin: auto;
+			width:700px;
+			border:2px solid;
+			text-align: center;
+		}
+		table{
+			border: 1px solid;
+			border-collapse: collapse;
+			
+			margin: 2px;
+		}
+		th,td{
+			border: 1px solid;
+			margin: 0;
+			table-layout: auto;
+		}
+		
+			/*styling for header*/
+		.header{
+			background-color: #f1f1f1;
+			text-align: center;
+			padding: 10px; 
+		}
+		/* sytling for navigation bar*/
+		.topnav{
+			background-color: #333;
+			overflow: hidden;
+		}
+		/*syling for navigation links*/
+		.topnav a{
+			text-decoration: none;
+			color:#f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			float: left;
+			display: block;
+		}
+		.topnav a:hover{
+			background-color: #ddd;
+			color: black;
+		}
+		.active{
+			background-color: #4CAF50;
+		}
+		
+		
+	</style>
+</head>
+<body>
+
+		<div class="header"><h1>Registration</h1></div>
+	<div class="topnav">
+		<a  class="active" href="2.Personaldetails.html">Personal details</a>
+		<a href="Tradingdetails.html">Trading details</a>
+		<a href="Otherdetails.html">Other details</a>
+		<a href="PaymentDetails.html">Complete your payment</a>
+	</div>
+
+
+	<h2>Other Details</h2>
+	<h4>If firm operate in own building:</h4>
+	<ul><h5>Expected market value</h5>
+	<form>
+		<li>Main Branch:<input type="text" name="mainbranch1" placeholder="Rs."></li><br>
+		<li>Branch:<input type="text" name="banch1" placeholder="Rs."></li><br>
+		<li>Godown:<input type="text" name="godown1" placeholder="Rs."></li><br>
+		<li>Factory:<input type="text" name="factory1" placeholder="Rs."></li><br>
+		<li>Others:<input type="text" name="Others1" placeholder="Rs."></li><br>
+	</form>
+	</ul>
+	<h4>If firm operate in rented building:</h4>
+	<ul><h5>Annual rent amount</h5>
+	<form>
+		<li>Main Branch:<input type="text" name="mainbranch2" placeholder="Rs."></li><br>
+		<li>Branch:<input type="text" name="banch2" placeholder="Rs."></li><br>
+		<li>Godown:<input type="text" name="godown2" placeholder="Rs."></li><br>
+		<li>Factory:<input type="text" name="factory2" placeholder="Rs."></li><br>
+		<li>Others:<input type="text" name="Others2" placeholder="Rs."></li><br>
+	</form>
+	</ul>
+	<h5>If member of any traders organization,specify the name of the organization</h5>
+	<input type="text" name="organization name">
+	<table>
+	<caption><h5>Family details:</h5></caption>
+	<tr>
+		<th>Name</th>
+		<th>Age</th>
+		<th>Gender</th>
+		<th>Occupation</th>
+		<th>Relationship</th>
+	</tr>
+	<tr>
+		<td><input type="text" name="name1"></td>
+		<td><input type="text" name="Age"></td>
+		<td><input type="text" name="Gender"></td>
+		<td><input type="text" name="Occupation"></td>
+		<td><input type="text" name="Relationship"></td>
+	</tr>
+	</table><p></p>
+	<input type="submit" name="submit" value="submit">
+	
+</body>
+</html>

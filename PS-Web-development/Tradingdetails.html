@@ -1,0 +1,105 @@
+<html>
+
+<style>
+	form.border {
+	margin: auto;
+	width: 700px;
+	border: 2px solid;
+	text-align: center;
+}
+
+			/*styling for header*/
+		.header{
+			background-color: #f1f1f1;
+			text-align: center;
+			padding: 10px; 
+		}
+		/* sytling for navigation bar*/
+		.topnav{
+			background-color: #333;
+			overflow: hidden;
+		}
+		/*syling for navigation links*/
+		.topnav a{
+			text-decoration: none;
+			color:#f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			float: left;
+			display: block;
+		}
+		.topnav a:hover{
+			background-color: #ddd;
+			color: black;
+		}
+		.active{
+			background-color: #4CAF50;
+		}
+
+</style>
+
+
+
+<body>
+
+
+		<div class="header"><h1>Registration</h1></div>
+	<div class="topnav">
+		<a  class="active" href="2.Personaldetails.html">Personal details</a>
+		<a href="Tradingdetails.html">Trading details</a>
+		<a href="Otherdetails.html">Other details</a>
+		<a href="PaymentDetails.html">Complete your payment</a>
+	</div>
+
+<br>
+<br>
+
+	<form class="border" action="#" method="POST">
+	<h2> Trading details </h2>
+	<label for="Trading firm"><b>Name of the trading firm</b></label>
+	<input type="text" name="trading firm" required>
+<br/> <br/>
+	<label for="Address"><b>Address of the firm</b></label>
+    <input type="text" name="Address of the firm" required>
+<br/> <br/>	
+
+	<h4> Main trading place: </h4>
+	 
+		<label for="1. Branch"><b>1. Branch</b></label>
+    <input type="text" name="1. Branch" required>
+<br/> <br/>
+		<label for="2. Godown"><b>2. Godown</b></label>
+    <input type="text" name="2. Godown" required>
+<br/> <br/>
+		<label for="3. Factory"><b>3. Factory</b></label>
+    <input type="text" name="3. Factory" required>
+<br/> <br/>
+		<label for="4. Others"><b>4. Others</b></label>
+    <input type="text" name="4. Others">
+<br/> <br/> <br/>
+
+	<label for="Nature of ownership"><b>Nature of ownership</b></label>
+    <input type="text" name="Nature of ownership" required>
+<br/> <br/>	
+	<label for="Capital contribution"><b>Capital contribution</b></label>
+    <input type="text" name="Capital contribution" required>
+<br/> <br/>	
+	<label for="GSTN & DATE"> <b>GSTN & Date</b></label>
+    <input type="date" name="GSTN & Date" required>
+<br/> <br/>	
+	<label for="Licence number"><b>Licence number</b></label>
+    <input type="text" name="Licence number" required>
+<br/> <br/>	
+	<label for="Licensing authority"><b>Licensing authority</b></label>
+    <input type="text" name="Licensing authority" required>
+<br/><br/>	
+	<label for="Name of the official issues license"><b>Name of the official issues license</b></label>
+    <input type="text" name="Name of the official issues license" required>
+<br/> <br/>		
+<input type="submit" name="NEXT" required>
+<br/> <br/>
+
+	</form>
+	
+</body>	
+	
